@@ -5,6 +5,10 @@ import RevenueChart from "@/app/ui/dashboard/revenue-chart"
 import LatestInvoices from "@/app/ui/dashboard/latest-invoices"
 import { CardSkeleton, LatestInvoicesSkeleton, RevenueChartSkeleton } from "@/app/ui/skeletons"
 
+export const metadata = {
+    title: 'Dashboard',
+}
+
 export default async function Page() {
     return (
         <main>
